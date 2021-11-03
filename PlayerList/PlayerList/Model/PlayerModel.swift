@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PlayerModel: Decodable {
+struct PlayerModel: Decodable, Equatable {
     let id: Int
     let name: String
     let avatarURL: String
