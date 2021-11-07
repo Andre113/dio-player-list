@@ -9,7 +9,11 @@ import Foundation
 
 private let apiURL = "https://run.mocky.io/v3/5edee99f-c2ca-4ce5-a6bc-3cec0ea58edf"
 
-final class PlayerListService {
+protocol PlayerListServicing {
+    func fetchPlayerList(completion: @escaping(Result<[PlayerModel], Error>) -> Void)
+}
+
+final class PlayerListService: PlayerListServicing {
     func fetchPlayerList(completion: @escaping(Result<[PlayerModel], Error>) -> Void) {
         guard let url = URL(string: apiURL) else {
             // Handle error

@@ -8,7 +8,7 @@
 import UIKit
 
 final class PlayerListViewController: UIViewController {
-    private let viewModel = PlayerListViewModel()
+    private let viewModel = PlayerListViewModel(service: PlayerListService())
     
     private lazy var activityIndicator: UIActivityIndicatorView = {
         let activityIndicator = UIActivityIndicatorView(style: .large)

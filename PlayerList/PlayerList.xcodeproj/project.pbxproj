@@ -17,6 +17,7 @@
 		D734685B272D12C800D16B7D /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734685A272D12C800D16B7D /* PlayerCell.swift */; };
 		D734685E272D12F200D16B7D /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D734685D272D12F200D16B7D /* PlayerModel.swift */; };
 		D7346861272D130B00D16B7D /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7346860272D130B00D16B7D /* Reusable.swift */; };
+		D79F0B562733A54F0078EC8A /* PlayerListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79F0B552733A54F0078EC8A /* PlayerListViewModelTests.swift */; };
 		D7B60DD2273202A20048AE07 /* PlayerListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B60DD1273202A20048AE07 /* PlayerListManager.swift */; };
 		D7B60DE7273233350048AE07 /* PlayerListManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B60DE6273233350048AE07 /* PlayerListManagerTests.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		D734685A272D12C800D16B7D /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
 		D734685D272D12F200D16B7D /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
 		D7346860272D130B00D16B7D /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		D79F0B552733A54F0078EC8A /* PlayerListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewModelTests.swift; sourceTree = "<group>"; };
 		D7B60DD1273202A20048AE07 /* PlayerListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListManager.swift; sourceTree = "<group>"; };
 		D7B60DE4273233350048AE07 /* PlayerListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayerListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B60DE6273233350048AE07 /* PlayerListManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListManagerTests.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				D7B60DE6273233350048AE07 /* PlayerListManagerTests.swift */,
+				D79F0B552733A54F0078EC8A /* PlayerListViewModelTests.swift */,
 			);
 			path = PlayerListTests;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7B60DE7273233350048AE07 /* PlayerListManagerTests.swift in Sources */,
+				D79F0B562733A54F0078EC8A /* PlayerListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

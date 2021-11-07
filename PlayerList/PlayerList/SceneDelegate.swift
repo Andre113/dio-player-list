@@ -15,6 +15,11 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window = UIWindow(windowScene: windowScene)
+        
+        guard ProcessInfo.processInfo.environment["XCTestConfigurationFilePath"] == nil else {
+            return
+        }
+        
         window?.rootViewController = UINavigationController(rootViewController: PlayerListViewController())
         window?.makeKeyAndVisible()
     }

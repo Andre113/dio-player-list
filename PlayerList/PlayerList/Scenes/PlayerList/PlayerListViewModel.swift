@@ -17,8 +17,12 @@ protocol PlayerListViewModelDelegate: AnyObject {
 final class PlayerListViewModel {
     weak var delegate: PlayerListViewModelDelegate?
     
-    private let service = PlayerListService()
+    private let service: PlayerListServicing
     private var players: [PlayerModel] = []
+    
+    init(service: PlayerListServicing) {
+        self.service = service
+    }
     
     var numberOfRows: Int {
         players.count
